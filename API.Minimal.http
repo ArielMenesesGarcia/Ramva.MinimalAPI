@@ -1,0 +1,19 @@
+@API.Minimal_HostAddress = https://localhost:7121
+
+GET {{API.Minimal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{API.Minimal_HostAddress}}/Agergar
+Content-Type: application/json
+
+{ 
+  "Name": "Laura"
+  ,"Age": 18
+  ,"Active": true
+}
+###
+GET {{API.Minimal_HostAddress}}/usuarios
+
+###
